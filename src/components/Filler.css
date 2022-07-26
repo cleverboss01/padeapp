@@ -1,0 +1,41 @@
+.filler-text {
+  color: #dc393a;
+  width: 100%;
+  padding: 5% 0;
+  height: 55px;
+  left: 614px;
+  top: 1570px;
+  font-size: 36px;
+  line-height: 55px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  background: #f1fcff;
+}
+
+.filler-container {
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+.filler-img {
+  height: 170px;
+  width: 5076px;
+  background: url("../components/asset/Pattern.png") repeat-x;
+  animation: slide 60s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-1692px, 0, 0);
+  }
+}
+
+@media (min-width: 300px) and (max-width: 900px) {
+  .filler-text {
+    padding: 0;
+  }
+}
