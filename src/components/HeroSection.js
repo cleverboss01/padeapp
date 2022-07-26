@@ -90,7 +90,11 @@ const HeroSection = ({
                   {imgEmbed ? (
                     <>
                       <Tilt id="card" options={{ scale: 2 }}>
-                        <img src={emImg} alt="img-embed" className={imgClass} />
+                        <img
+                          src={emImg}
+                          alt="image-embed"
+                          className={imgClass}
+                        />
                       </Tilt>
                     </>
                   ) : null}
